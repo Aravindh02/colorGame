@@ -1,0 +1,24 @@
+create a vite application with name color-game.
+follow the below conditions and create the the game
+build 4 blocks (normal div with width 140px height 140px) overall padding 40px
+each block should be at each corner of the screen.
+create a circle in the center with dimension (300 x 300)px
+each block should have a click lisener, when clicked open a form / modal in the center
+the form should contain a input field where user can enter a hex code as value. have a submit button inside the same form.
+when submit button clicked set the hex color to the block(use usestate for each block to store the color)
+the color should to reflected to the blocks once a color is set.
+a user can change the color of the block as much he likes
+after all blocks(color) are set a new button should appear below the circle.
+once we click the button the circle should transition between all the colors from top left to bottom right.(bit hard)
+have a reset button to reset everything.
+states are very important to make this functional
+
+have 4 states where the colors and other properties if needed are stored.
+have one state to toggle the button below the circle.
+have one state to open modal/form
+use id to set the value to individual blocks.
+feel free to use google.
+
+i will add a visual link below.
+
+https://www.figma.com/file/OTDp13HU66dtYUvUUHtdZD/Untitled?node-id=0%3A1&t=YwYvpNuJxhSWi6sU-1
